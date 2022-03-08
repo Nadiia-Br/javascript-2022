@@ -24,7 +24,7 @@ document.body.appendChild(cloneDiv);
 // Завдання робити через цикли.
 
 let arr = ['Main','Products','About us','Contacts']
-
+cdd
 
 
 
