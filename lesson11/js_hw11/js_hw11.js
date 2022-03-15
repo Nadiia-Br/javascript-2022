@@ -13,15 +13,14 @@ first.onsubmit = function (e) {
 };
 
 
+
 // -створити форму з інпутами для model,type та volume автівки.
 //     при відпарвці форми об'єкти зберігаються в масиві в локальному сховищі.
 
 let arr = JSON.parse(localStorage.getItem('cars')) || [];
-
 let infoCar = document.forms.car;
 car.onsubmit = function (ev) {
     ev.preventDefault();
-
 
     let model = car.model.value;
     let type = car.type.value;
